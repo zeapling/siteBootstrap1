@@ -12,3 +12,17 @@
 
 font-size: 2vw;
 }
+.thumb{
+
+    padding-top:10vw;
+}
+.btnStyle{
+    background-color: #d93600;
+    padding-inline:1.5vw ;
+    padding-block:0.6vw ;
+}
+
+.pBaixoTitulo2{
+    margin-top: 10vh;
+    font-size: 2vw;
+    }

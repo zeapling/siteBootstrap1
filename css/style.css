@@ -1,28 +1,149 @@
-
+body{
+    background: rgb(107,15,38);
+    background: linear-gradient(144deg, rgba(107,15,38,1) 3%, rgba(102,52,11,1) 13%, rgba(97,31,14,1) 21%, rgba(0,12,33,1) 40%, rgba(0,1,3,1) 75%, rgba(0,0,0,1) 100%);
+}
+p{
+        
+    
+}
 .container 
 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+   
+    font-family:Arial, Helvetica, sans-serif;
 }
 .pTitulo{
 
-    font-size: 6vw;
+ 
+    font-weight: 1000;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
  
 }
-.pBaixoTitulo{
+.pMenuTexto :hover {
 
-font-size: 2vw;
+    color: rgb(247, 137, 87);
+transition: 400ms;
+cursor: pointer;
+
+
+font-size: 1vw;
+    font-weight: 800;
+
+}
+.pMenuTextoApertado{
+
+    font-size: 1vw;
+    font-weight: 800;
+    color: rgb(247, 137, 87);
+    cursor: pointer;
+     text-decoration: underline 2px;
+    text-underline-offset: 7px ;
+
+}
+.pMenuTexto {
+    font-size: 1vw;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+   
+    
+}
+
+.pBaixoTitulo{
+    font-size: 1.7vw;
+    font-weight: 500;
+    color: rgb(247, 137, 87);
+
+
+
 }
 .thumb{
 
     padding-top:10vw;
 }
+.btnStyle:hover{
+
+position: relative;
+transform: translateY(-3px);
+transition: 0.8s;
+
+
+
+}
 .btnStyle{
+
+   
+    transition: 0.4s;
     background-color: #d93600;
     padding-inline:1.5vw ;
-    padding-block:0.6vw ;
+    padding-block:1vw ;
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    font-weight: 800;
+    border-radius: 2%;
+    border-style   : none;
+}
+.pLadoBtn{
+    color: rgb(247, 137, 87);
+
+}
+.pBaixoTitulo3{
+    margin-top: 30vh;
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: rgb(255, 38, 0);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    }
+    .pBaixoTitulo4{
+       padding: 0;
+       margin: 0;
+        font-size: 4vw;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        } 
+        .pBaixoTitulo5{
+         
+            font-size: 1.7vw;
+            font-weight: 500;
+            color: rgb(247, 137, 87);
+            }
+.pGrid1{
+    padding-top: 1.7vw;
+    margin: 0;
+     font-size: 1.7vw;
+     font-weight: 600;
+     color: rgb(255, 255, 255);
+} 
+.gridBg img{
+    padding: 1vw;
+    border:  solid 4px rgba(160, 163, 156, 0);
+    border-radius: 100%;
+    background-color: rgb(46, 43, 43);
 }
 
-.pBaixoTitulo2{
-    margin-top: 10vh;
-    font-size: 2vw;
-    }
+.pGrid2{
+    padding-top: 1vw;
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: rgb(247, 137, 87);
+} 
+.gridBg{
+background-color: #1b1628;
+border: solid 1px #38383d;
+border-radius: 3%;
+}    
+.circle{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border:  solid 4px rgba(160, 163, 156, 0);
+    border-radius: 100%;
+    background-color: rgb(46, 43, 43);
+}
+.emoji{
+
+    font-size: 30px;
+}
